@@ -1,7 +1,8 @@
+#!/usr/bin/python3
 """
 A program for calculating the prime genarator constant with
 arbitrary precision, and check the sequence of generated numbers.
-DOI: 10.1080/00029890.2019.1530554)
+(See in DOI:10.1080/00029890.2019.1530554)
 
 Author: Nagy Gabor
 """
