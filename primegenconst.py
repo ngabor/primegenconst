@@ -49,9 +49,10 @@ print(c)
 
 #Calculate the sequence until the first number which is not prime
 f=[c]
-while isprime(int(f[-1])):
+while True:
     f.append(int(f[-1])*(1+f[-1]%1))
-
+    if int(f[-1])!=nextprime(int(f[-2])):
+            break
 pl=[int(x) for x in f[:-1]]
 print(f'\nThis number provides {len(pl)} prime numbers:')
 print(', '.join([str(pj) for pj in pl]))
